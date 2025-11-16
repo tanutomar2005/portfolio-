@@ -1,0 +1,204 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+    body{
+      background:#0e1220;
+      color:white;
+      line-height:1.4;
+    }
+    header{
+      padding:20px 40px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      position:sticky;
+      top:0;
+      background:#0e1220c9;
+      backdrop-filter:blur(6px);
+    }
+    header h1{
+      font-size:22px;
+      color:#00eaff;
+    }
+    nav a{
+      margin-left:20px;
+      color:#cfe7ff;
+      text-decoration:none;
+      font-size:15px;
+    }
+.hero{
+  padding:100px 40px;
+  text-align:center;
+}
+.hero h2{
+  font-size:42px;
+  margin-bottom:10px;
+  color:#00eaff;
+}
+.hero p{
+  font-size:18px;
+  color:#cfe7ff;
+}
+.btn{
+  margin-top:20px;
+  padding:12px 24px;
+  background:#00eaff;
+  color:#000;
+  border:none;
+  border-radius:6px;
+  font-weight:bold;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.about{
+  padding:80px 40px;
+  max-width:900px;
+  margin:auto;
+}
+.about h2{
+  font-size:30px;
+  margin-bottom:10px;
+  color:#00eaff;
+}
+.about p{
+  color:#d6e6ff;
+}
+
+.skills{
+  padding:80px 40px;
+  background:#141a31;
+}
+.skills h2{
+  font-size:30px;
+  margin-bottom:20px;
+  color:#00eaff;
+  text-align:center;
+}
+.skill-box{
+  display:flex;
+  flex-wrap:wrap;
+  gap:15px;
+  justify-content:center;
+}
+
+.skill{
+  background:#1d2440;
+  padding:10px 18px;
+  border-radius:6px;
+  color:#b8d7ff;
+  font-size:15px;
+  border:1px solid #2c355a;
+}
+
+.projects{
+  padding:80px 40px;
+  max-width:1000px;
+  margin:auto;
+}
+.projects h2{
+  font-size:30px;
+  margin-bottom:20px;
+  color:#00eaff;
+  text-align:center;
+}
+.project-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+}
+.card{
+  background:#141a31;
+  padding:20px;
+  border-radius:10px;
+  border:1px solid #233056;
+}
+.card h3{
+  color:#00eaff;
+  margin-bottom:8px;
+}
+.card p{
+  color:#b8cfff;
+  font-size:14px;;
+  margin-bottom:10px;
+}
+.card a{
+  color:#00eaff;
+  text-decoration:none;
+  font-size:14px;
+}
+
+.login-link{
+  text-align:center;
+  margin-top:40px;
+}
+.login-link a{
+  color:#00eaff;
+  font-size:17px;
+  text-decoration:underline;
+}
+
+  </style>
+</head>
+<body><header>
+  <h1>My Portfolio</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+  </nav>
+</header><section class="hero">
+  <h2>Hello, I'm a Web Developer</h2>
+  <p>I build simple and clean websites using HTML, CSS, JavaScript.</p>
+  <button class="btn">Hire Me</button>
+</section><section class="about" id="about">
+  <h2>About Me</h2>
+  <p>
+    I'm a beginner web developer learning front‑end technologies. I love creating
+    clean UI designs and simple websites.I am passionate about coding and eager to learn new skills in web development.
+  </p>
+</section><section class="skills" id="skills">
+  <h2>My Skills</h2>
+  <div class="skill-box">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">Git & GitHub</div>
+    <div class="skill">Responsive Design</div>
+  </div>
+</section><section class="projects" id="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="card">
+      <h3>Project 1</h3>
+      <p>A simple website built using HTML & CSS.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="card">
+      <h3>Project 2</h3>
+      <p>A responsive layout using CSS Grid.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="card">
+      <h3>Project 3</h3>
+      <p>UI design for a login page.</p>
+      <a href="#">View Project</a>
+    </div>
+  </div>
+</section><section class="contact" id="contact" style="padding:80px 40px;background:#1a2238;text-align:center;color:#d6e6ff;">
+  <h2 style="color:#00eaff;font-size:30px;margin-bottom:20px;">Contact Details</h2>
+  <p><strong>Email:</strong> tanutomar314@gmail.com</p>
+  <p><strong>GitHub:</strong> <a href="#" style="color:#00eaff;">tanutomar2005</a></p>
+  <p><strong>LinkedIn:</strong> <a href="#" style="color:#00eaff;">Tanu Tomar</a></p>
+</section><div class="login-link">
+</div></body>
+</html>
